@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grabar", "Grabar.csproj", "{6F5DB853-F84A-4A2C-85FC-D3D48334D556}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reposis", "..\Reposis\Reposis.csproj", "{ED1211C9-E1EF-4827-8115-C5F0AC5B8E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrabarBacked", "..\GrabarBacked\GrabarBacked.csproj", "{D9033215-FC58-418C-96EA-F4556B8C3147}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Grabar Installer", "..\Grabar Installer\Grabar Installer.vdproj", "{21D495EA-17F5-417F-A164-0AA8EE89FFA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F5DB853-F84A-4A2C-85FC-D3D48334D556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5DB853-F84A-4A2C-85FC-D3D48334D556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5DB853-F84A-4A2C-85FC-D3D48334D556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5DB853-F84A-4A2C-85FC-D3D48334D556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED1211C9-E1EF-4827-8115-C5F0AC5B8E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED1211C9-E1EF-4827-8115-C5F0AC5B8E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED1211C9-E1EF-4827-8115-C5F0AC5B8E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED1211C9-E1EF-4827-8115-C5F0AC5B8E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9033215-FC58-418C-96EA-F4556B8C3147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9033215-FC58-418C-96EA-F4556B8C3147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9033215-FC58-418C-96EA-F4556B8C3147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9033215-FC58-418C-96EA-F4556B8C3147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D495EA-17F5-417F-A164-0AA8EE89FFA2}.Debug|Any CPU.ActiveCfg = Debug
+		{21D495EA-17F5-417F-A164-0AA8EE89FFA2}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDBF97C3-AAB8-4E7A-96AE-A65C04D5376C}
+	EndGlobalSection
+EndGlobal
