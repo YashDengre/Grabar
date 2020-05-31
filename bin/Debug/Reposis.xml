@@ -1,0 +1,1225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Reposis</name>
+    </assembly>
+    <members>
+        <member name="T:Reposis.Attributes.Mandate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Attributes.Mandate.#ctor">
+            <summary>
+            
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.DBOperations.Automate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.DBOperations.Automate.OpenConnection(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            OpenConnection - open the sql connection if connection is not open already
+            </summary>
+            <param name="connection"></param>
+        </member>
+        <member name="M:Reposis.DBOperations.Automate.CloseConnection(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            CloseConnection -  close te sql connection if connection is not closed already
+            </summary>
+            <param name="connection"></param>
+        </member>
+        <member name="T:Reposis.Grabar.AddPersonsRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersonsRequest.Persons">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.AddPersons">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.PersonsId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.First_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Last_Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Total_Due_Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Total_Owe_Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Date_Of_Add">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Concluded_Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersons.Status">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.AddPersonsResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddPersonsResponse.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.AddTransactionResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddTransactionResponse.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.AddTransctionRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.AddTransctionRequest.Transaction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.Transaction">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.PersonId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.Amount_Borrow">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.Amount_Paid">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.TrxnFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.TransactionId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Transaction.Transaction_Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.Enums.PeriodType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Grabar.Enums.PeriodType.ALL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Grabar.Enums.PeriodType.FROMDATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Grabar.Enums.PeriodType.TOP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.Enums.ViewTrxnComboType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Grabar.Enums.ViewTrxnComboType.FROMTO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Grabar.Enums.ViewTrxnComboType.DATE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Grabar.Enums.ViewTrxnComboType.ALL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.RecordEntryRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.RecordEntryRequest.ItemName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.RecordEntryRequest.Amount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.RecordEntryRequest.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.RecordEntryRequest.AmountPlus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.RecordEntryRequest.Date">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.RecordEntryResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.RecordEntryResponse.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.ViewMonthDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewMonthDetails.MonthDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewMonthDetails.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.MonthDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.MonthId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.YearId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.MOnthName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.MonthCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.SalaryAMount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.ExtraAMount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.ExtraAmountReasonFlag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.ExtraAmountReasonFlagDescription">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.ConcludedAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.TotalExpenseAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.TotalDueAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.MonthDetails.TotalOweAmount">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.ViewPersonsResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewPersonsResponse.Persons">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewPersonsResponse.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.ViewRecordsResponse">
+            <summary>
+            ViewRecord
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewRecordsResponse.Records">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewRecordsResponse.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.Records">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Records.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Records.ItemName">
+            <summary>
+            ItemName
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Records.Amount">
+            <summary>
+            Amount
+            </summary>  
+        </member>
+        <member name="P:Reposis.Grabar.Records.Date">
+            <summary>
+            Date
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Records.Amount_Plus">
+            <summary>
+            Amount_Plus
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.Records.Description">
+            <summary>
+            Description
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.ViewRecordsRequest">
+            <summary>
+            ViewRecordsRequest1 
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewRecordsRequest.DateTo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewRecordsRequest.DateFrom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewRecordsRequest.Period">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.ViewTransactionsRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewTransactionsRequest.PersonId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewTransactionsRequest.FromDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewTransactionsRequest.ToDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewTransactionsRequest.TrxnComboType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Grabar.ViewTransactionsResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Grabar.ViewTransactionsResponse.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.Logger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteDebug(System.String)">
+            <summary>
+            WriteDebug - Write the logs into Debug file - Use for debugging purpose.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteTrace(System.String)">
+            <summary>
+            WriteTrace - Write the logs into Trace file - Use for Tracing purpose.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteAudit(System.String,System.String,System.String,System.String,Reposis.Logger.AuditDetailType)">
+            <summary>
+            WriteAudit - It combines all the details and inititate the MessageLogger class then it writes the log into Audit file.
+            </summary>
+            <param name="description"></param>
+            <param name="auditActivity"></param>
+            <param name="subjet"></param>
+            <param name="auditString"></param>
+            <param name="auditDetailType"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteAudit(System.String)">
+            <summary>
+            WriteAudit - Write the logs into Audit file - Use for Audting purpose.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteError(Reposis.Logger.ReposisException)">
+            <summary>
+            WriteError - It combines all the details from Reposis Exception and inititate the MessageLogger class then it writes the log into Error file.
+            </summary>
+            <param name="exception"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteError(System.String)">
+            <summary>
+            WriteError - Write the logs into Error file - Use for tracing the error.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.WriteLog(System.String)">
+            <summary>
+             WriteLog -  Write Log in Undefined file - Use for Custom logs.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.Write(System.String,System.String)">
+            <summary>
+            Write - Write logs based on the logType field, Default it will consider it as Undefined log and writes into undefined file if logType is not matched or not provided.
+            </summary>
+            <param name="message"></param>
+            <param name="logType"></param>
+        </member>
+        <member name="M:Reposis.Logger.Logger.Write(Reposis.Logger.MessageLogger)">
+            <summary>
+             Write -  Writes the logs in MessageLogger format in logs files based on the MessageLogger.EventType
+            </summary>
+            <param name="messageLogger"></param>
+        </member>
+        <member name="T:Reposis.Logger.Category">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Category.CAT_AUDIT">
+            <summary>
+            CAT_AUDIT - Audit File
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Category.CAT_ERROR">
+            <summary>
+            CAT_ERROR - Error File
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Category.CAT_DEBUG">
+            <summary>
+            CAT_DEBUG - Debug File
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Category.CAT_TRACE">
+            <summary>
+            CAT_TRACE - Trace File
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Category.CAT_UNDEFINED">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.FormatHelper.CW">
+            <summary>
+            Column Width
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.MessageLogger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.CW">
+            <summary>
+            Column Width
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.TS">
+            <summary>
+            Tab Size
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.MessageLogger.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.MessageLogger.#ctor(System.String,System.String,System.String,System.String,Reposis.Logger.AuditDetailType)">
+            <summary>
+            
+            </summary>
+            <param name="description"></param>
+            <param name="auditActivity"></param>
+            <param name="subject"></param>
+            <param name="auditString"></param>
+            <param name="auditDetailsType"></param>
+        </member>
+        <member name="M:Reposis.Logger.MessageLogger.#ctor(System.Exception,Reposis.Logger.ExceptionSource,Reposis.Logger.ExceptionType,System.String,System.String,Reposis.Logger.Severity,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ex"></param>
+            <param name="exceptionSource"></param>
+            <param name="exceptionType"></param>
+            <param name="description"></param>
+            <param name="errorCode"></param>
+            <param name="sev"></param>
+            <param name="codeSegment"></param>
+            <param name="messageToEndUser"></param>
+        </member>
+        <member name="M:Reposis.Logger.MessageLogger.#ctor(System.Exception,Reposis.Logger.ExceptionSource,Reposis.Logger.ExceptionType,System.String,System.String,Reposis.Logger.Severity,System.String,System.String,Reposis.Logger.AuditDetails)">
+            <summary>
+            
+            </summary>
+            <param name="ex"></param>
+            <param name="exceptionSource"></param>
+            <param name="exceptionType"></param>
+            <param name="description"></param>
+            <param name="errorCode"></param>
+            <param name="sev"></param>
+            <param name="codeSegment"></param>
+            <param name="messageToEndUser"></param>
+            <param name="auditDetails"></param>
+        </member>
+        <member name="M:Reposis.Logger.MessageLogger.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.TimeStamp">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.Description">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.Details">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.SystemUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.EndUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.Source">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.MessageLogger.EventType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.Details">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Details.TS">
+            <summary>
+            Tab Size
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.Details.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.Details.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Reposis.Logger.Details.AuditDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Details.ExceptionDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.AuditDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.AuditDetails.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.AuditDetails.#ctor(System.String,Reposis.Logger.AuditDetailType,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="activity"></param>
+            <param name="type"></param>
+            <param name="subject"></param>
+            <param name="auditString"></param>
+        </member>
+        <member name="M:Reposis.Logger.AuditDetails.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetails.Activity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetails.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetails.Subject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetails.AuditString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.ExceptionDetails">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.ExceptionDetails.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.ExceptionDetails.#ctor(Reposis.Logger.ExceptionType,Reposis.Logger.ExceptionSource,System.String,Reposis.Logger.Severity,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="exceptionType"></param>
+            <param name="exceptionSource"></param>
+            <param name="errorCode"></param>
+            <param name="sev"></param>
+            <param name="stackTrace"></param>
+            <param name="messageToEndUser"></param>
+        </member>
+        <member name="M:Reposis.Logger.ExceptionDetails.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.Logger.ExceptionDetails.GetExceptionSource(Reposis.Logger.ExceptionSource)">
+            <summary>
+            
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.Type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.Source">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.StackTrace">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.MessageToEndUser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.Code">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.Severity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionDetails.SeveritySpecified">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.Source">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.Source.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.Source.#ctor(System.Exception,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="ex"></param>
+            <param name="codeSegment"></param>
+        </member>
+        <member name="M:Reposis.Logger.Source.GetAssemblyFromName(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="strAssembly"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.Logger.Source.ToString">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:Reposis.Logger.Source.IP_Address">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.MachineName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.MachineNameSecondary">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.Component">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.SourceClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.Method">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.LineNumber">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.System">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Source.CodeSegment">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.ReposisException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Logger.ReposisException.ExceptionSource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Logger.ReposisException.ExceptionType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Logger.ReposisException.InnerExceptionCustom">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Logger.ReposisException.CustomMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Logger.ReposisException.MessageLogger">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Logger.ReposisException.IsLogged">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.ReposisException.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.Logger.ReposisException.#ctor(Reposis.Logger.ExceptionType,Reposis.Logger.ExceptionSource,System.Exception,System.String,Reposis.Logger.Severity,System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <param name="source"></param>
+            <param name="exception"></param>
+            <param name="errorCode"></param>
+            <param name="sev"></param>
+            <param name="description"></param>
+            <param name="messageToEndUser"></param>
+            <param name="codeSegment"></param>
+        </member>
+        <member name="M:Reposis.Logger.ReposisException.#ctor(Reposis.Logger.ExceptionType,Reposis.Logger.ExceptionSource,System.Exception,System.String,Reposis.Logger.Severity,System.String,System.String,System.String,Reposis.Logger.AuditDetails)">
+            <summary>
+            
+            </summary>
+            <param name="type"></param>
+            <param name="source"></param>
+            <param name="exception"></param>
+            <param name="errorCode"></param>
+            <param name="sev"></param>
+            <param name="description"></param>
+            <param name="messageToEndUser"></param>
+            <param name="codeSegment"></param>
+            <param name="auditDetails"></param>
+        </member>
+        <member name="T:Reposis.Logger.Enums">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.AuditDetailType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetailType.GENERAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetailType.TRACE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetailType.INFO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.AuditDetailType.OTHER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.ExceptionType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.INIT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.RUNTIME">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.AUTHORIZATION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.VALIDATION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.PARSE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.SOAP">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.INPUT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.OUTPUT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionType.NOTAPPLICABLE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.EventType">
+            <summary>
+            
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.EventType.EXCEPTION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.EventType.AUDIT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.EventType.DEBUG">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.EventType.TRACE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.Severity">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Severity.WARNING">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Severity.ERROR">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.Severity.FATAL">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.ExceptionSource">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionSource.LOCUS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionSource.REPOSIS">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionSource.REPEXOHOST">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionSource.CONTROLLER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionSource.APPLICATION">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.ExceptionSource.NOTAPPICABLE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Logger.FalutCode">
+            <summary>
+            
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.FalutCode.CLIENT">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Reposis.Logger.FalutCode.SERVER">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.RAWConfig.ConfigurationRAW">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Reposis.RAWConfig.ConfigurationRAW.Read(System.String,System.String)">
+            <summary>
+            Returns the string value of specified key from Config if found else returns the default specified value
+            </summary>
+            <param name="keyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.RAWConfig.ConfigurationRAW.Read(System.String,System.Boolean)">
+            <summary>
+            Returns the boolean value of specified key from Config if found else returns the default specified value
+            </summary>
+            <param name="keyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.RAWConfig.ConfigurationRAW.Read(System.String,System.Int32)">
+            <summary>
+            Returns the integer value of specified key from Config if found else returns the default specified value
+            </summary>
+            <param name="keyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.RAWConfig.ConfigurationRAW.Read(System.String,System.Double)">
+            <summary>
+            Returns the double value of specified key from Config if found else returns the default specified value
+            </summary>
+            <param name="keyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.RAWConfig.ConfigurationRAW.Read(System.String,System.Decimal)">
+            <summary>
+            Returns the decimal value of specified key from Config if found else returns the default specified value
+            </summary>
+            <param name="keyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Reposis.RAWConfig.ConfigurationRAW.ReadConnectionString(System.String,System.String)">
+            <summary>
+            ReadConnectionString - Read the connection strings
+            </summary>
+            <param name="connectionKeyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Reposis.CustomHeaders">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.CustomHeaders.TraceId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.CustomHeaders.Channel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.SharedLibrary.ResponseHeaders">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.SharedLibrary.ResponseHeaders.Headers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.SharedLibrary.Headers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.SharedLibrary.Headers.Key">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.SharedLibrary.Headers.Value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Reposis.Result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Reposis.Result.Message">
+            <summary>
+            message - contains message in case of any error or success if required.
+            </summary>
+        </member>
+        <member name="P:Reposis.Result.Code">
+            <summary>
+            code - contains code of error or success
+            </summary>
+        </member>
+    </members>
+</doc>
